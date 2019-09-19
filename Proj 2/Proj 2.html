@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <title>Survey form </title>
+  <link rel="stylesheet" href="style.css">
+</header>
+
+<body>
+  <div id="title">
+    <h1>Heres a survey form</h1>
+  </div>
+  <div id="main-body">
+    <div id="description">
+      <p>Fill out the survey please</p>
+    </div>
+    <div id="survey">
+      <form id="survey-form">
+        <div class="input-rows"><label class="input-title">Name:</label>
+          <input id="name-label" class="inputs" type="text" name="Text1" placeholder="Your name" required></div>
+        <div class="input-rows"><label class="input-title">Email:</label>
+          <input id="email-label" class="inputs" type="email" name="Text2" placeholder="Your email" required></div>
+        <div class="input-rows"><label class="input-title">Age:</label>
+          <input id="number-label" class="inputs" type="number" name="Text3" min="1" max="100" placeholder="Your age"
+            required></div>
+        <div class="input-rows"><label class="input-title">Occupation:</label>
+          <select id="dropdown" class="inputs" name="jobs">
+            <option value="Plumber">Plumber</option>
+            <option value="Chef">Chef</option>
+            <option value="Artist">Arist</option>
+          </select></div>
+        <div id="radio-description">
+          Rate this survey form
+        </div>
+        <div class="radio">
+          <label class="radiobuttons">1</label>
+          <input type="radio" name="rbuttons" value="1">
+          <label class="radiobuttons">2</label>
+          <input type="radio" name="rbuttons" value="2">
+          <label class="radiobuttons">3</label>
+          <input type="radio" name="rbuttons" value="3">
+          <label class="radiobuttons">4</label>
+          <input type="radio" name="rbuttons" value="4">
+          <label class="radiobuttons">5</label>
+          <input type="radio" name="rbuttons" value="5">
+          <label class="radiobuttons">6</label>
+          <input type="radio" name="rbuttons" value="6">
+        </div>
+        <div id="check-description">
+          How many parts of the survey was answered
+        </div>
+        <div class="checkboxesrow">
+          <label class="checkboxes">1</label>
+          <input type="checkbox" name="cbox" value="1">
+          <label class="checkboxes">2</label>
+          <input type="checkbox" name="cbox" value="2">
+          <label class="checkboxes">3</label>
+          <input type="checkbox" name="cbox" value="3">
+          <label class="checkboxes">4</label>
+          <input type="checkbox" name="cbox" value="4">
+          <label class="checkboxes">5</label>
+          <input type="checkbox" name="cbox" value="5">
+          <label class="checkboxes">6</label>
+          <input type="checkbox" name="cbox" value="6">
+        </div>
+        <div class="comments">
+          <label class="comment-section">Additional Comments</label>
+          <textarea name="comments" placeholder="Insert your comments here" value="comment"></textarea>
+        </div>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

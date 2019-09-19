@@ -1,0 +1,73 @@
+html{
+  background-color:orange;
+  font-variant:small-caps;
+}
+#title{
+  text-align:center;
+  border-style:ridge;
+  display:flex;
+  justify-content:center;
+  background-color:beige;
+}
+#description{
+  text-align:center;
+  font-weight:bold;
+}
+#main-body{
+  border-style:ridge;
+  margin-top:5px;
+  margin-left:200px;
+  margin-right:200px;
+  margin-bottom:5px;
+/*   background-color:rgba(180, 180, 180, .6); */
+  background-color:beige;
+}
+#survey-form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:5px;
+}
+
+.input-title{
+  text-align:left;
+}
+.inputs{
+  float:right;
+  width:150px;
+}
+.input-rows{
+  width:300px;
+  padding:5px;
+}
+.radio{
+  display:flex;
+  width:300px;
+  justify-content:space-between;
+  padding:5px;
+}
+#radio-description{
+  padding:10px;
+}
+#check-description{
+  padding:10px;
+}
+.checkboxesrow{
+  display:flex;
+  width:300px;
+  justify-content:space-between;
+}
+.comments{
+  width:300px;
+  padding:5px;
+}
+.comment-section{
+  display:flex;
+  justify-content:center;
+}
+textarea{
+  width:300px;
+}
+footer{
+  text-align:center;
+}
